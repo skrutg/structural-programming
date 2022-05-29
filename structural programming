@@ -1,0 +1,6 @@
+def range_list(x,y):
+    lists=[]
+    for i in range(x,y, -1):
+        lists.append(i)
+    return lists
+print(range_list(5,2))
